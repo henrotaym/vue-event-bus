@@ -1,5 +1,5 @@
 {
-  "name": "@henrotaym/typescript-js-package",
+  "name": "@henrotaym/vue-event-bus",
   "version": "1.0.1-alpha.0",
   "description": "Typescript js package template.",
   "main": "dist/index.js",
@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/henrotaym/typescript-js-package.git"
+    "url": "git+https://github.com/henrotaym/vue-event-bus.git"
   },
   "author": "Henrotay Mathieu <mathieu.henrotay@gmail.be>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/henrotaym/typescript-js-package/issues"
+    "url": "https://github.com/henrotaym/vue-event-bus/issues"
   },
-  "homepage": "https://github.com/henrotaym/typescript-js-package#readme",
+  "homepage": "https://github.com/henrotaym/vue-event-bus#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
@@ -42,5 +42,8 @@
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.5.1",
     "typescript": "^4.5.3"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
   }
 }
