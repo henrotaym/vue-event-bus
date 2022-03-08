@@ -11,8 +11,8 @@ declare module "vue/types/vue" {
 
 declare module "vue/types/options" {
   // @ts-ignore
+  // eslint-disable-next-line
   interface ComponentOptions<V extends Vue> {
-    // eslint-disable-line
     bus?: EventBus;
   }
 }
