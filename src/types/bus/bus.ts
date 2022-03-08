@@ -16,4 +16,4 @@ export type EventBusListenerParams<
 > = E[K];
 
 /** Event bus event names with related params. */
-export type EventBusEvents = Record<string, Record<string, any>>;
+export type EventBusEvents = Record<string, any>;
