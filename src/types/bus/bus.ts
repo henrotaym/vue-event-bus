@@ -17,3 +17,9 @@ export type EventBusListenerParams<
 
 /** Event bus event names with related params. */
 export type EventBusEvents = Record<string, any>;
+
+/** Event bus events merger. */
+export type MergeEventBusEvents<
+  E extends EventBusEvents = EventBusEvents,
+  T extends EventBusEvents = {}
+> = E & T;
