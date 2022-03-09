@@ -2,13 +2,13 @@
 export type PrefixKeys<
   N extends string,
   P extends Prefixable,
-  S extends string = ".",
-  K extends keyof P = keyof P
+  S extends string = "."
 > = {
-  [Key in K as Key extends string | number | bigint | boolean
-    ? `${N}${S}${Key}`
-    : never]: P[Key];
+  [K in keyof P as K extends PrefixableKey ? `${N}${S}${K}` : never]: P[K];
 };
 
-/** Reprensenting Prefixable entity. */
+/** Prefixable entity. */
 export type Prefixable = Record<string, any>;
+
+/** Prefixable key. */
+export type PrefixableKey = string | number | bigint | boolean;
