@@ -1,6 +1,6 @@
 {
   "name": "@henrotaym/vue-event-bus",
-  "version": "1.0.1-alpha.9",
+  "version": "1.0.1",
   "description": "Typescript js package template.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
